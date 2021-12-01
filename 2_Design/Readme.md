@@ -7,6 +7,6 @@
 ![image](https://user-images.githubusercontent.com/94293980/144080159-4e3b13be-e388-4e4e-9206-0e41529b227c.png)
 
 ## Behavioural Diagrams
-![image](https://user-images.githubusercontent.com/94293980/144082250-68fe4caa-8169-42d1-a83c-d51596d08150.png)
+![flowchart](https://user-images.githubusercontent.com/94293980/144221697-fdd155cf-626f-4717-a30f-ba11d7842d49.png)
 
 
