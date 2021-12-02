@@ -35,7 +35,7 @@ Limited testing distance
 Inaccurate readings
 Inflexible scanning methods.
 
-## High Level Requirements
+### High Level Requirements
 RID	DESCRIPTION	STATUS
 HLR1	ATMEGA 328	Implemented
 HLR2	C language	Implemented
@@ -48,19 +48,19 @@ LLR2	Distance measured	Implemented
 LLR3	LCD Display	Implemented
 
 ## 4W's and 1'H
-#### Why
+### Why
 The main concept of building this project is to easily detect the preset range and generate an output signal.
 
-#### What
+### What
 This project is all about the alert system towards the independent of target size, material or reflectivity.
 
-#### Where
+### Where
 This project is to calculate the precise distance(s) of an object moving to and from the sensor are measured via time intervals between transmitted and reflected bursts of ultrasonic sound.
 
-#### When
+### When
 This project is going to be deployed on 2/12/2021.
 
-#### How
+### How
 With Ultrasonic Sensing’s unique advantages over conventional sensors and the rapidly increasing range of applications, ultrasonic sensors are becoming widely accepted as an industry standard across the board..
 ## Future Scope
 In future with the advancement of quicker response of sensors, like the usage of top notch sensors it can be made lighly useful and also the modules that one needs to wear as a bracelet or on any other part of the body can be transformed into a wearable clothing like a coat, so that it can be made fit for working and there can be more advancement in this device for instance we can use piezeo electric plates in the shoes of the user which can generate sufficient electricity that the modules can run on. 
