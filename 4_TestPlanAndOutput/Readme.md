@@ -27,9 +27,9 @@ We have used a few pins (PIND3, PIND4, PIND5) to connect the control pins of the
 Other pins that are left open are don’t care pins and can be set at any value (i.e 0 or 1).
 ## Setting up the Interrupt
 
-* GICR |= 1<<INT0;
-* MCUCR |= 1<<ISC00;
-* GICR : General Interrupt Control Registor
+GICR |= 1<<INT0;
+MCUCR |= 1<<ISC00;
+GICR : General Interrupt Control Registor
 This Instruction is used to configure the PIN D2 as an interrupt PIN as the ECHO pin of the sensor is connected here.
 
 MCUCR: MCU control Register
