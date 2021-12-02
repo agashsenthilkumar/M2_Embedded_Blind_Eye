@@ -14,11 +14,8 @@
 /**
  * Macro Definitions
  */
-#define trigPin 2             /**< Trig Pin for ultrasonic sensor */
-
-#define echoPin 3	     /**< Echo Pin for ultrasonic sensor */
-
-
+#define enable            5
+#define registerselection 6
 /**
  * Include files
  */ 
