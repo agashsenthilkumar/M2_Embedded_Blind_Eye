@@ -2,16 +2,16 @@
 
 ## Defining variables
 
-* static volatile int pulse = 0;
-* static volatile int i = 0;
+static volatile int pulse = 0;
+static volatile int i = 0;
 The variable ‘pulse’ is used to store the count value from the TCNT register.
 The variable ‘i’ is used as a flag to indicate the current status of the Echo pin.
 ## Initialisation of LCD and setting up of port D as IO port
 
-* Initialise();
-* DDRD = 0b11111011;
-* _delay_ms(50);
-* ‘Initialize()’ is a function used to initialize the LCD and is defined in the library of the LCD that has been previously made.
+Initialise();
+DDRD = 0b11111011;
+_delay_ms(50);
+‘Initialize()’ is a function used to initialize the LCD and is defined in the library of the LCD that has been previously made.
 
 Next instruction sets up the function of the Pins of the port D of microcontroller. 1 means that an output device is connected at that PIN and microcontroller will write the logic there and 0 means that input device is connected there and microcontroller will read the logic from there.
 
